@@ -261,6 +261,18 @@ header .textbox .btn {
 #our .box {
   text-align: center;
 }
+#our .textbox3 {
+  padding: 30px 250px 0;
+  text-align: center;
+}
+#our .textbox3 h4 {
+  color: #6c757d;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  padding-bottom: 20px;
+}
 #our .textbox {
   padding: 50px;
   display: flex;
@@ -280,35 +292,54 @@ header .textbox .btn {
   font-weight: 400;
 }
 #our h2 {
-  padding: 25px 0 15px 0;
-  font-size: 32px;
+  padding: 25px 0 10px 0;
+  font-size: 30px;
   font-weight: 600;
 }
 #our h4 {
   color: #6c757d;
   font-family: Georgia, serif;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 #our .imgbox {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background-color: #d6d8da;
 }
 #our img {
   border-radius: 50%;
-  width: 235px;
+  width: 185px;
 }
-#our .icon {
+#our .logobox {
   display: flex;
   justify-content: center;
 }
-#our .icon .logo {
+#our .logobox .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #212529;
-  width: 1px;
-  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+#our .logobox .logo .icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 16px;
+}
+
+.imgboxs {
+  width: 100%;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
