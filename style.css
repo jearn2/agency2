@@ -360,4 +360,8 @@ header .textbox .btn {
 .imgboxs {
   width: 100%;
   background-color: white;
+}
+
+#contact .textbox .h1 {
+  font-size: 28px;
 }/*# sourceMappingURL=style.css.map */
