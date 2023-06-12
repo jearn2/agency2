@@ -364,6 +364,10 @@ header .textbox .btn {
 
 #contact {
   padding: 80px;
+  background-color: #212529;
+  background-image: url("assets/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #contact .textbox {
   display: flex;
@@ -420,4 +424,40 @@ header .textbox .btn {
   font-size: 20px;
   font-weight: 600;
   color: white;
+}
+
+footer {
+  padding: 10px;
+  background-color: white;
+}
+footer .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .right a {
+  padding: 0 20px 0 0;
+  color: #000;
+}
+footer .logobox {
+  display: flex;
+  justify-content: center;
+}
+footer .logobox .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212529;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px 0 10px;
+}
+footer .logobox .logo .icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
