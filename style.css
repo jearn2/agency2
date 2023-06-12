@@ -4,6 +4,24 @@ body {
   background-color: gray;
 }
 
+.imgboxs {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 80px;
+}
+.imgboxs .box1 {
+  width: 200px;
+}
+.imgboxs .box2 {
+  width: 130px;
+}
+.imgboxs .box3 {
+  width: 150px;
+}
+.imgboxs .box4 {
+  width: 100px;
+}
+
 header {
   background-image: url("assets/header.jpg");
   background-size: cover;
