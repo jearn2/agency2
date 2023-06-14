@@ -182,10 +182,17 @@ header .textbox .btn {
   position: absolute;
   top: 0;
   left: 0;
-  width: 420px;
+  padding: 149px 205px;
   height: auto;
   z-index: 1;
-  background-color: #ff0000;
+  background-color: rgb(255, 200, 0);
+}
+#portfolio .box .yellowhover i {
+  color: white;
+  font-size: 4em;
+}
+#portfolio .box .imgbox {
+  position: relative;
 }
 #portfolio .box .imgbox img {
   width: 420px;
